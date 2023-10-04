@@ -11,6 +11,11 @@ html, body {
     overflow: hidden;
 }
 
+#profile-pic img {
+    width: 80px;
+    object-fit: cover;
+}
+
 /* PROBLEM 3: Flesh our your follow button! 5 px for the
 top and bottom, 30 for the left and right*/
 /* YOUR CODE HERE */
@@ -24,25 +29,30 @@ top and bottom, 30 for the left and right*/
 /* PROBLEM 4: Turn items into a square, 120x120 px image */
 /* YOUR CODE HERE */
 
-#pictures .row .item {
+.item {
     height: 120px;
     width: 120px;
+}
+
+.item img {
+    width: 120px;
+    object-fit: cover;
 }
 
 /* PROBLEM 5: Create a 10 px horizontal space between items */
 /* YOUR CODE HERE */
 
 .item {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    border-right: 5px;
+    border-left: 5px;
 }
 
 /* PROBLEM 6: Create a 10px vertical space between rows */
 /* YOUR CODE HERE */
 
-#pictures .row .item {
-    margin-right: 10px;
-    margin-left: 10px;
+#pictures .row {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /* PROBLEM 7: Adcx  d 20px of space between each navigation item */
