@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding-top: 20px;
+    position: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navigation {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    width: 100%;
+    top: 0;
+    padding-top: 3%;
+    height: 50px;
+}
+
+.navigation ul {
+    display: inline-block;
+    float: right;
+}
+
+.navigation li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 10px;
+}
+
+.navigation a {
+    color: black;
+    font-family: 'Roboto';
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ABOVE DONE */
+
+.home-content { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding-right does not work */
+} 
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connect-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin or padding does not work */
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 15%;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.experiences-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.job {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.positioned-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.job-box {
+    width: 200px;
+    height: 130px;
+    position: relative;
+    background-color: #E9EDC9;
+    border-radius: 15%;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.job-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+} 
+
+.company-logo {
+    width: 100px;
+    height: auto;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+/* need to edit */
+#header-name {
+    font-family: 'Onest';
+    color: #90A9B7;
+    font-style: bold; 
+    font-size: xx-large;
+}
+
+h1 {
+    font-family: 'Onest';
+    color: #90A9B7;
+    /* font-style: bold; 
+    text-align: center;
+    font-size: xx-large; */
+}
+
+h2 {
+    font-family: 'Roboto';
+    color: black;
+    text-align: center;
+    font-size: x-large;
+}
+
+h3 {
+    font-family: 'Roboto';
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+
+h4 {
+    font-family: 'Roboto';
+    color: #90A9B7;
+}
+
+h5 {
+    font-family: 'Roboto';
+    color: gray;
+    text-align: center;
+    font-size:medium;
+}
+
+p {
+    font-family: 'Roboto';
+    color: black;
+}
+
+#footer {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+section img {
+    width: 40px;
+    height: 40px;
+}
+
+.circular-image {
+    width: 400px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the entire circle without stretching */
+    object-position: center center; /* Center the image within the circle */
+    padding-right: 40px;
+  }
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.css-selector {
+    font-family: 'Roboto', serif;
+    }
+
